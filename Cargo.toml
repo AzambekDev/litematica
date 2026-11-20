@@ -1,0 +1,14 @@
+[package]
+name = "litematica"
+version = "1.0.0"
+edition = "2021"
+authors = ["masa", "Sakura-Ryoko", "AzambekDev"]
+description = "Litematica schematic mod for Horizon (Rust Minecraft)"
+license = "LGPL-3.0-only"
+
+[lib]
+name = "litematica"
+crate-type = ["cdylib", "rlib"]
+path = "src/lib.rs"
+
+[dependencies]

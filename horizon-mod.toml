@@ -1,0 +1,17 @@
+id = "litematica"
+name = "Litematica"
+version = "1.0.0"
+description = "A modern schematic mod for Horizon, ported from Litematica and MaLiLib. Ghost block overlays, schematic verifier, material list, area selection."
+authors = ["masa", "Sakura-Ryoko", "AzambekDev"]
+license = "LGPL-3.0-only"
+license_url = "https://www.gnu.org/licenses/lgpl-3.0.txt"
+homepage = "https://github.com/AzambekDev/litematica"
+issues = "https://github.com/AzambekDev/litematica/issues"
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "0b14f8acfd97fa2c750e42795249dcc981178ca4"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
