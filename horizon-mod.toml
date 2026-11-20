@@ -9,6 +9,7 @@ homepage = "https://github.com/AzambekDev/litematica"
 issues = "https://github.com/AzambekDev/litematica/issues"
 api = "0.2"
 side = "client"
+namespaces = ["malilib"]
 capabilities = ["registries"]
 
 [native]
